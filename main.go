@@ -220,7 +220,7 @@ func main() {
 	// 启动服务
 	port := os.Getenv("SERVER_PORT")
 	if port == "" {
-		port = "9090"
+		port = "10000"
 	}
 	log.Printf("Server running on port %s", port)
 	r.Run("0.0.0.0:" + port)
